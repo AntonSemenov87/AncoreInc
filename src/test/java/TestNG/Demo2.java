@@ -8,27 +8,27 @@ public class Demo2 {
 
     @AfterTest
     public void finalAfter () {
-        System.out.println("This is what's done after all tests of Demo 2");
+        System.out.println("Demo 2 - @AfterTest");
     }
 
     @Test
     public void one () {
-        System.out.println("Demo 2 - one");
+        System.out.println("Demo 2 - TC 1");
     }
 
     @Test
     public void two () {
-        System.out.println("Demo 2 - two");
+        System.out.println("Demo 2 - TC 2");
     }
 
     @Test
     public void three () {
-        System.out.println("Demo 2 - three");
+        System.out.println("Demo 2 - TC 3");
     }
 
     @BeforeTest
     public void preRequisite () {
-        System.out.println("This is pre-requisite");
+        System.out.println("Demo 2 - @Before Test");
     }
 
 

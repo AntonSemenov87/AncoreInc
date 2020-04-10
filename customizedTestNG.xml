@@ -4,25 +4,19 @@
     <test name = "Personal stuff">
         <classes>
             <class name = "TestNG.Demo2"/>
+            <class name = "TestNG.Demo"/>
         </classes>
     </test>
 
     <test name = "Car Loan">
         <classes>
             <class name = "TestNG.Demo3"/>
-                <methods>
-                    <exclude name = "Mobile.*"/>
-                </methods>
         </classes>
     </test>
 
     <test name = "Home Loan">
         <classes>
-            <class name="TestNG.Demo"/>
             <class name = "TestNG.Demo4"/>
-            <methods>
-                <include name = "WebloginHomeLoan"/>
-            </methods>
         </classes>
     </test>
 </suite>

@@ -21,4 +21,9 @@ public class Demo4 {
         // Rest API automation
         System.out.println("Demo 4 - APILoginHome");
     }
+
+    @Test
+    public void LogOutAPIHomeLoan () {
+        System.out.println("Demo 4 - APILogOutHome");
+    }
 }

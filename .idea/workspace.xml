@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd48ae05-1e7b-4d2c-87a3-7a80bd27c2de" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/customizedTestNG1.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/customizedTestNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/customizedTestNG.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestNG/Demo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestNG/Demo3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestNG/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestNG/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestNG/Demo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestNG/Demo2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/TestNG/Demo3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestNG/Demo3.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,7 +35,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="TestNG./Users/AntonSemenov/Desktop/AncoreIncFramework/customizedTestNG1.xml">
+  <component name="RunManager" selected="TestNG./Users/AntonSemenov/Desktop/AncoreIncFramework/customizedTestNG.xml">
     <configuration name="Demo" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AncoreInc" />
       <extension name="coverage">
@@ -93,8 +93,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG./Users/AntonSemenov/Desktop/AncoreIncFramework/customizedTestNG1.xml" />
         <item itemvalue="TestNG./Users/AntonSemenov/Desktop/AncoreIncFramework/customizedTestNG.xml" />
+        <item itemvalue="TestNG./Users/AntonSemenov/Desktop/AncoreIncFramework/customizedTestNG1.xml" />
         <item itemvalue="TestNG.Demo" />
         <item itemvalue="TestNG.Demo.demo" />
       </list>
@@ -130,22 +130,22 @@
       <screen x="0" y="23" width="1440" height="845" />
     </state>
     <state x="408" y="190" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1440.845@0.23.1440.845" timestamp="1586475208638" />
-    <state width="1398" height="501" key="GridCell.Tab.0.bottom" timestamp="1586490938821">
+    <state width="1398" height="252" key="GridCell.Tab.0.bottom" timestamp="1586495565298">
       <screen x="0" y="23" width="1440" height="845" />
     </state>
-    <state width="1398" height="501" key="GridCell.Tab.0.bottom/0.23.1440.845@0.23.1440.845" timestamp="1586490938821" />
-    <state width="1398" height="501" key="GridCell.Tab.0.center" timestamp="1586490938820">
+    <state width="1398" height="252" key="GridCell.Tab.0.bottom/0.23.1440.845@0.23.1440.845" timestamp="1586495565298" />
+    <state width="1398" height="252" key="GridCell.Tab.0.center" timestamp="1586495565298">
       <screen x="0" y="23" width="1440" height="845" />
     </state>
-    <state width="1398" height="501" key="GridCell.Tab.0.center/0.23.1440.845@0.23.1440.845" timestamp="1586490938820" />
-    <state width="1398" height="501" key="GridCell.Tab.0.left" timestamp="1586490938819">
+    <state width="1398" height="252" key="GridCell.Tab.0.center/0.23.1440.845@0.23.1440.845" timestamp="1586495565298" />
+    <state width="1398" height="252" key="GridCell.Tab.0.left" timestamp="1586495565297">
       <screen x="0" y="23" width="1440" height="845" />
     </state>
-    <state width="1398" height="501" key="GridCell.Tab.0.left/0.23.1440.845@0.23.1440.845" timestamp="1586490938819" />
-    <state width="1398" height="501" key="GridCell.Tab.0.right" timestamp="1586490938820">
+    <state width="1398" height="252" key="GridCell.Tab.0.left/0.23.1440.845@0.23.1440.845" timestamp="1586495565297" />
+    <state width="1398" height="252" key="GridCell.Tab.0.right" timestamp="1586495565298">
       <screen x="0" y="23" width="1440" height="845" />
     </state>
-    <state width="1398" height="501" key="GridCell.Tab.0.right/0.23.1440.845@0.23.1440.845" timestamp="1586490938820" />
+    <state width="1398" height="252" key="GridCell.Tab.0.right/0.23.1440.845@0.23.1440.845" timestamp="1586495565298" />
     <state x="208" y="28" key="SettingsEditor" timestamp="1586482728025">
       <screen x="0" y="23" width="1440" height="845" />
     </state>

@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd48ae05-1e7b-4d2c-87a3-7a80bd27c2de" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customizedTestNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/customizedTestNG.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestNG/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestNG/Demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestNG/Demo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestNG/Demo2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestNG/Demo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestNG/Demo3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestNG/Demo4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestNG/Demo4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TestNG/Demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestNG/Demo.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,22 +127,22 @@
       <screen x="0" y="23" width="1440" height="845" />
     </state>
     <state x="408" y="190" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1440.845@0.23.1440.845" timestamp="1586475208638" />
-    <state width="1398" height="152" key="GridCell.Tab.0.bottom" timestamp="1586549445127">
+    <state width="1398" height="140" key="GridCell.Tab.0.bottom" timestamp="1586550787727">
       <screen x="0" y="23" width="1440" height="845" />
     </state>
-    <state width="1398" height="152" key="GridCell.Tab.0.bottom/0.23.1440.845@0.23.1440.845" timestamp="1586549445127" />
-    <state width="1398" height="152" key="GridCell.Tab.0.center" timestamp="1586549445127">
+    <state width="1398" height="140" key="GridCell.Tab.0.bottom/0.23.1440.845@0.23.1440.845" timestamp="1586550787727" />
+    <state width="1398" height="140" key="GridCell.Tab.0.center" timestamp="1586550787727">
       <screen x="0" y="23" width="1440" height="845" />
     </state>
-    <state width="1398" height="152" key="GridCell.Tab.0.center/0.23.1440.845@0.23.1440.845" timestamp="1586549445127" />
-    <state width="1398" height="152" key="GridCell.Tab.0.left" timestamp="1586549445126">
+    <state width="1398" height="140" key="GridCell.Tab.0.center/0.23.1440.845@0.23.1440.845" timestamp="1586550787727" />
+    <state width="1398" height="140" key="GridCell.Tab.0.left" timestamp="1586550787726">
       <screen x="0" y="23" width="1440" height="845" />
     </state>
-    <state width="1398" height="152" key="GridCell.Tab.0.left/0.23.1440.845@0.23.1440.845" timestamp="1586549445126" />
-    <state width="1398" height="152" key="GridCell.Tab.0.right" timestamp="1586549445127">
+    <state width="1398" height="140" key="GridCell.Tab.0.left/0.23.1440.845@0.23.1440.845" timestamp="1586550787726" />
+    <state width="1398" height="140" key="GridCell.Tab.0.right" timestamp="1586550787727">
       <screen x="0" y="23" width="1440" height="845" />
     </state>
-    <state width="1398" height="152" key="GridCell.Tab.0.right/0.23.1440.845@0.23.1440.845" timestamp="1586549445127" />
+    <state width="1398" height="140" key="GridCell.Tab.0.right/0.23.1440.845@0.23.1440.845" timestamp="1586550787727" />
     <state x="208" y="28" key="SettingsEditor" timestamp="1586482728025">
       <screen x="0" y="23" width="1440" height="845" />
     </state>

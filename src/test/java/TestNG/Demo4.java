@@ -7,18 +7,23 @@ public class Demo4 {
     @Test
     public void WebloginHomeLoan () {
         // Selenium
-        System.out.println("WebloginHome");
+        System.out.println("Demo 4 - WebloginHome");
     }
 
     @Test
     public void MobileloginHomeLoan () {
         // Appium
-        System.out.println("MobileloginHome");
+        System.out.println("Demo 4 - MobileloginHome");
     }
 
     @Test
     public void LoginAPIHomeLoan () {
         // Rest API automation
-        System.out.println("APILoginHome");
+        System.out.println("Demo 4 - APILoginHome");
+    }
+
+    @Test
+    public void LogOutAPIHomeLoan () {
+        System.out.println("Demo 4 - APILogOutHome");
     }
 }

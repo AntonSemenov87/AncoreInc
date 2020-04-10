@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="/Users/AntonSemenov/Desktop/AncoreIncFramework">
+        <classes>
+            <class name="TestNG.Demo">
+                <methods>
+                    <include name="firstTC"/>
+                    <include name="secondTC"/>
+                </methods>
+            </class>
+            <class name="TestNG.Demo2">
+                <methods>
+                    <include name="one"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

@@ -1,5 +1,6 @@
-package TestNG;
+package TestNG_Anton;
 
+import org.testng.Assert;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
@@ -16,6 +17,7 @@ public class BusinessLoan {
     @Test (dependsOnMethods = "businessLogin")
     public void businessLogout () {
         System.out.println("Business logout");
+        Assert.assertTrue(false);
     }
 
 

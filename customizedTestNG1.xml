@@ -1,7 +1,7 @@
 <suite name = "Loan Department">
     <test name = "Personal loan">
         <packages>
-            <package name = "TestNG"/>
+            <package name = "TestNG_Anton"/>
         </packages>
     </test>
 </suite>

@@ -1,4 +1,4 @@
-package TestNG;
+package TestNG_Anton;
 
 import java.util.Random;
 

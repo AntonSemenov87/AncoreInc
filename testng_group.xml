@@ -9,11 +9,11 @@
             </run>
         </groups>
         <classes>
-            <class name="TestNG.Demo"/>
-            <class name="TestNG.Demo2"/>
-            <class name="TestNG.Demo3"/>
-            <class name="TestNG.Demo4"/>
-            <class name="TestNG.Demo5"/>
+            <class name="TestNG_Anton.Demo"/>
+            <class name="TestNG_Anton.Demo2"/>
+            <class name="TestNG_Anton.Demo3"/>
+            <class name="TestNG_Anton.Demo4"/>
+            <class name="TestNG_Anton.Demo5"/>
         </classes>
     </test>
 </suite>

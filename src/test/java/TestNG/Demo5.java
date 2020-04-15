@@ -1,12 +1,15 @@
 package TestNG;
 
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 public class Demo5 {
 
+    @Parameters ({"URL"})
     @Test (timeOut = 10000)
-    public void Login () {
+    public void Login (String URL) {
         System.out.println("I'm signing in");
+        System.out.println(URL);
     }
 
     @Test (dependsOnMethods = "Login")
@@ -18,4 +21,6 @@ public class Demo5 {
     public void sendMessage () {
         System.out.println("I'm sending a message and I have a bug");
     }
+
+
 }

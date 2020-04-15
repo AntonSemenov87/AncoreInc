@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name = "Demo">
+    <parameter name="URL" value="www.flipchitown.com"></parameter>
+    <test name = "Try">
+        <classes>
+            <class name = "TestNG.Demo5"/>
+
+        </classes>
+    </test>
+</suite>

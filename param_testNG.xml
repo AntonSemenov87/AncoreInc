@@ -3,7 +3,7 @@
 <suite name="Loan">
     <parameter name = "mainURL" value = "www.loan.com"/>
     <test name = "Personal Loan">
-        <parameter name="personalURL" value="www.personal.loan.com"></parameter>
+        <parameter name="personalURL" value="www.personal.loan.com"/>
         <parameter name = "username" value="user123"/>
         <parameter name = "password" value="tester123"/>
         <classes>
@@ -12,11 +12,11 @@
     </test>
 
     <test name = "Business Loan">
-        <parameter name="businessURL" value="www.business.loan.com"></parameter>
+        <parameter name="businessURL" value="www.business.loan.com"/>
         <parameter name = "username" value="business123"/>
         <parameter name ="password" value="password123"/>
-            <classes>
-                <class name = "TestNG.BusinessLoan"/>
-            </classes>
+        <classes>
+            <class name = "TestNG.BusinessLoan"/>
+        </classes>
     </test>
 </suite>

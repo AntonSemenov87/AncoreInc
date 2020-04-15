@@ -9,7 +9,7 @@ public class Demo {
         System.out.println("@AfterMethod for Demo1 class");
     }
 
-    @Test
+    @Test(groups = "smoke")
     public void firstTC () {
         System.out.println("Demo 1 - first TC");
     }

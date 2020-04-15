@@ -2,22 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd48ae05-1e7b-4d2c-87a3-7a80bd27c2de" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestNG_Anton/GlobalData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestNG_Anton/datadriven.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/param_testNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/param_testNG.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestNG_Anton/Listeners.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestNG_Anton/Listeners.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestNG_Anton/One.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestNG_Anton/One.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TestNG/BusinessLoan.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TestNG/Demo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TestNG/Demo2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TestNG/Demo3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TestNG/Demo4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TestNG/Demo5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TestNG/Listeners.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TestNG/One.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TestNG/PersonalLoan.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestNG_Anton/GlobalData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestNG_Anton/GlobalData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestNG_Anton/datadriven.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestNG_Anton/datadriven.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,23 +34,6 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunManager" selected="TestNG.GlobalData">
-    <configuration name="BusinessLoan" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AncoreIncFramework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TestNG_Anton.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="TestNG" />
-      <option name="MAIN_CLASS_NAME" value="TestNG.BusinessLoan" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="GlobalData" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AncoreIncFramework" />
       <extension name="coverage">
@@ -75,6 +45,24 @@
       <option name="PACKAGE_NAME" value="TestNG_Anton" />
       <option name="MAIN_CLASS_NAME" value="TestNG_Anton.GlobalData" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GlobalData.login" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AncoreIncFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestNG_Anton.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestNG_Anton" />
+      <option name="MAIN_CLASS_NAME" value="TestNG_Anton.GlobalData" />
+      <option name="METHOD_NAME" value="login" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -129,10 +117,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.GlobalData" />
+        <item itemvalue="TestNG.GlobalData.login" />
         <item itemvalue="TestNG./Users/AntonSemenov/Desktop/AncoreIncFramework/param_testNG.xml" />
         <item itemvalue="TestNG.PersonalLoan.personalLogin" />
         <item itemvalue="TestNG.PersonalLoan" />
-        <item itemvalue="TestNG.BusinessLoan" />
       </list>
     </recent_temporary>
   </component>
@@ -170,22 +158,26 @@
       <screen x="0" y="23" width="1440" height="845" />
     </state>
     <state x="408" y="190" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1440.845@0.23.1440.845" timestamp="1586475208638" />
-    <state width="1398" height="223" key="GridCell.Tab.0.bottom" timestamp="1586984003973">
+    <state x="458" y="199" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1586984719482">
       <screen x="0" y="23" width="1440" height="845" />
     </state>
-    <state width="1398" height="223" key="GridCell.Tab.0.bottom/0.23.1440.845@0.23.1440.845" timestamp="1586984003973" />
-    <state width="1398" height="223" key="GridCell.Tab.0.center" timestamp="1586984003973">
+    <state x="458" y="199" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.845@0.23.1440.845" timestamp="1586984719482" />
+    <state width="1398" height="197" key="GridCell.Tab.0.bottom" timestamp="1586989365772">
       <screen x="0" y="23" width="1440" height="845" />
     </state>
-    <state width="1398" height="223" key="GridCell.Tab.0.center/0.23.1440.845@0.23.1440.845" timestamp="1586984003973" />
-    <state width="1398" height="223" key="GridCell.Tab.0.left" timestamp="1586984003972">
+    <state width="1398" height="197" key="GridCell.Tab.0.bottom/0.23.1440.845@0.23.1440.845" timestamp="1586989365772" />
+    <state width="1398" height="197" key="GridCell.Tab.0.center" timestamp="1586989365771">
       <screen x="0" y="23" width="1440" height="845" />
     </state>
-    <state width="1398" height="223" key="GridCell.Tab.0.left/0.23.1440.845@0.23.1440.845" timestamp="1586984003972" />
-    <state width="1398" height="223" key="GridCell.Tab.0.right" timestamp="1586984003973">
+    <state width="1398" height="197" key="GridCell.Tab.0.center/0.23.1440.845@0.23.1440.845" timestamp="1586989365771" />
+    <state width="1398" height="197" key="GridCell.Tab.0.left" timestamp="1586989365770">
       <screen x="0" y="23" width="1440" height="845" />
     </state>
-    <state width="1398" height="223" key="GridCell.Tab.0.right/0.23.1440.845@0.23.1440.845" timestamp="1586984003973" />
+    <state width="1398" height="197" key="GridCell.Tab.0.left/0.23.1440.845@0.23.1440.845" timestamp="1586989365770" />
+    <state width="1398" height="197" key="GridCell.Tab.0.right" timestamp="1586989365772">
+      <screen x="0" y="23" width="1440" height="845" />
+    </state>
+    <state width="1398" height="197" key="GridCell.Tab.0.right/0.23.1440.845@0.23.1440.845" timestamp="1586989365772" />
     <state x="443" y="145" key="SettingsEditor" timestamp="1586900056827">
       <screen x="0" y="23" width="1440" height="845" />
     </state>

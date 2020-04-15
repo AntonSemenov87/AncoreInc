@@ -6,7 +6,7 @@ public class One {
     public static void main(String[] args) {
         One one = new One();
 
-        one.reverse("Vita Bezruchko");
+        one.reverse("Anton Semenov");
 
         System.out.println(one.randomNum(300));
 

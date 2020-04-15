@@ -2,25 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd48ae05-1e7b-4d2c-87a3-7a80bd27c2de" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestNG_Anton/Listeners.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestNG_Anton/GlobalData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestNG_Anton/datadriven.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customizedTestNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/customizedTestNG.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customizedTestNG1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/customizedTestNG1.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/param_testNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/param_testNG.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parameterization_testNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/parameterization_testNG.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestNG/BusinessLoan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestNG_Anton/BusinessLoan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestNG/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestNG_Anton/Demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestNG/Demo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestNG_Anton/Demo2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestNG/Demo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestNG_Anton/Demo3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestNG/Demo4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestNG_Anton/Demo4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestNG/Demo5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestNG_Anton/Demo5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestNG/Listeners.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestNG/One.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestNG_Anton/One.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestNG/PersonalLoan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestNG_Anton/PersonalLoan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TestNG/BusinessLoan.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestNG/BusinessLoan.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TestNG/PersonalLoan.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestNG/PersonalLoan.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng_group.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng_group.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestNG_Anton/Listeners.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestNG_Anton/Listeners.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestNG_Anton/One.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestNG_Anton/One.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestNG/BusinessLoan.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestNG/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestNG/Demo2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestNG/Demo3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestNG/Demo4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestNG/Demo5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestNG/Listeners.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestNG/One.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestNG/PersonalLoan.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +46,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
-  <component name="RunManager" selected="TestNG./Users/AntonSemenov/Desktop/AncoreIncFramework/param_testNG.xml">
+  <component name="RunManager" selected="TestNG.GlobalData">
     <configuration name="BusinessLoan" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AncoreIncFramework" />
       <extension name="coverage">
@@ -60,6 +57,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="TestNG" />
       <option name="MAIN_CLASS_NAME" value="TestNG.BusinessLoan" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GlobalData" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AncoreIncFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestNG_Anton.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestNG_Anton" />
+      <option name="MAIN_CLASS_NAME" value="TestNG_Anton.GlobalData" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -112,23 +126,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="/Users/AntonSemenov/Desktop/AncoreIncFramework/parameterization_testNG.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AncoreIncFramework" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/parameterization_testNG.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.GlobalData" />
         <item itemvalue="TestNG./Users/AntonSemenov/Desktop/AncoreIncFramework/param_testNG.xml" />
         <item itemvalue="TestNG.PersonalLoan.personalLogin" />
         <item itemvalue="TestNG.PersonalLoan" />
         <item itemvalue="TestNG.BusinessLoan" />
-        <item itemvalue="TestNG./Users/AntonSemenov/Desktop/AncoreIncFramework/parameterization_testNG.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -166,29 +170,29 @@
       <screen x="0" y="23" width="1440" height="845" />
     </state>
     <state x="408" y="190" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1440.845@0.23.1440.845" timestamp="1586475208638" />
-    <state width="1398" height="223" key="GridCell.Tab.0.bottom" timestamp="1586969355996">
+    <state width="1398" height="223" key="GridCell.Tab.0.bottom" timestamp="1586984003973">
       <screen x="0" y="23" width="1440" height="845" />
     </state>
-    <state width="1398" height="223" key="GridCell.Tab.0.bottom/0.23.1440.845@0.23.1440.845" timestamp="1586969355996" />
-    <state width="1398" height="223" key="GridCell.Tab.0.center" timestamp="1586969355996">
+    <state width="1398" height="223" key="GridCell.Tab.0.bottom/0.23.1440.845@0.23.1440.845" timestamp="1586984003973" />
+    <state width="1398" height="223" key="GridCell.Tab.0.center" timestamp="1586984003973">
       <screen x="0" y="23" width="1440" height="845" />
     </state>
-    <state width="1398" height="223" key="GridCell.Tab.0.center/0.23.1440.845@0.23.1440.845" timestamp="1586969355996" />
-    <state width="1398" height="223" key="GridCell.Tab.0.left" timestamp="1586969355995">
+    <state width="1398" height="223" key="GridCell.Tab.0.center/0.23.1440.845@0.23.1440.845" timestamp="1586984003973" />
+    <state width="1398" height="223" key="GridCell.Tab.0.left" timestamp="1586984003972">
       <screen x="0" y="23" width="1440" height="845" />
     </state>
-    <state width="1398" height="223" key="GridCell.Tab.0.left/0.23.1440.845@0.23.1440.845" timestamp="1586969355995" />
-    <state width="1398" height="223" key="GridCell.Tab.0.right" timestamp="1586969355996">
+    <state width="1398" height="223" key="GridCell.Tab.0.left/0.23.1440.845@0.23.1440.845" timestamp="1586984003972" />
+    <state width="1398" height="223" key="GridCell.Tab.0.right" timestamp="1586984003973">
       <screen x="0" y="23" width="1440" height="845" />
     </state>
-    <state width="1398" height="223" key="GridCell.Tab.0.right/0.23.1440.845@0.23.1440.845" timestamp="1586969355996" />
+    <state width="1398" height="223" key="GridCell.Tab.0.right/0.23.1440.845@0.23.1440.845" timestamp="1586984003973" />
     <state x="443" y="145" key="SettingsEditor" timestamp="1586900056827">
       <screen x="0" y="23" width="1440" height="845" />
     </state>
     <state x="443" y="145" key="SettingsEditor/0.23.1440.845@0.23.1440.845" timestamp="1586900056827" />
-    <state x="385" y="192" width="670" height="676" key="search.everywhere.popup" timestamp="1586911096684">
+    <state x="385" y="192" width="670" height="676" key="search.everywhere.popup" timestamp="1586983884371">
       <screen x="0" y="23" width="1440" height="845" />
     </state>
-    <state x="385" y="192" width="670" height="676" key="search.everywhere.popup/0.23.1440.845@0.23.1440.845" timestamp="1586911096684" />
+    <state x="385" y="192" width="670" height="676" key="search.everywhere.popup/0.23.1440.845@0.23.1440.845" timestamp="1586983884371" />
   </component>
 </project>

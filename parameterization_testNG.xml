@@ -4,7 +4,7 @@
     <parameter name="URL" value="www.flipchitown.com"></parameter>
     <test name = "Try">
         <classes>
-            <class name = "TestNG.Demo5"/>
+            <class name = "TestNG_Anton.Demo5"/>
 
         </classes>
     </test>

@@ -1,4 +1,4 @@
-package TestNG;
+package TestNG_Anton;
 
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;

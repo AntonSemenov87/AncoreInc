@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Loan">
+    <listeners>
+        <listener class-name="TestNG_Anton.Listeners"/>
+    </listeners>
     <parameter name = "mainURL" value = "www.loan.com"/>
     <test name = "Personal Loan">
         <parameter name="personalURL" value="www.personal.loan.com"/>
         <parameter name = "username" value="user123"/>
         <parameter name = "password" value="tester123"/>
         <classes>
-            <class name="TestNG.PersonalLoan"/>
+            <class name="TestNG_Anton.PersonalLoan"/>
         </classes>
     </test>
 
@@ -16,7 +19,7 @@
         <parameter name = "username" value="business123"/>
         <parameter name ="password" value="password123"/>
         <classes>
-            <class name = "TestNG.BusinessLoan"/>
+            <class name = "TestNG_Anton.BusinessLoan"/>
         </classes>
     </test>
 </suite>

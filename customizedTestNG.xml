@@ -3,20 +3,20 @@
 
     <test name = "Personal stuff">
         <classes>
-            <class name = "TestNG.Demo2"/>
-            <class name = "TestNG.Demo"/>
+            <class name = "TestNG_Anton.Demo2"/>
+            <class name = "TestNG_Anton.Demo"/>
         </classes>
     </test>
 
     <test name = "Car Loan">
         <classes>
-            <class name = "TestNG.Demo3"/>
+            <class name = "TestNG_Anton.Demo3"/>
         </classes>
     </test>
 
     <test name = "Home Loan">
         <classes>
-            <class name = "TestNG.Demo4"/>
+            <class name = "TestNG_Anton.Demo4"/>
         </classes>
     </test>
 </suite>

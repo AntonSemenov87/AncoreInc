@@ -3,13 +3,13 @@
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true" name="/Users/AntonSemenov/Desktop/AncoreIncFramework">
         <classes>
-            <class name="TestNG.Demo">
+            <class name="TestNG_Anton.Demo">
                 <methods>
                     <include name="firstTC"/>
                     <include name="secondTC"/>
                 </methods>
             </class>
-            <class name="TestNG.Demo2">
+            <class name="TestNG_Anton.Demo2">
                 <methods>
                     <include name="one"/>
                 </methods>

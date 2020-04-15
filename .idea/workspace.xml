@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd48ae05-1e7b-4d2c-87a3-7a80bd27c2de" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/param_testNG.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parameterization_testNG.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestNG/BusinessLoan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestNG/PersonalLoan.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestNG/Demo5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestNG/Demo5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TestNG/Demo5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestNG/Demo5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng_group.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng_group.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/param_testNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/param_testNG.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestNG/PersonalLoan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestNG/PersonalLoan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestNG/PersonalLoan.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestNG/PersonalLoan.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +52,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo5" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="PersonalLoan" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AncoreIncFramework" />
       <extension name="coverage">
         <pattern>
@@ -65,8 +61,26 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="TestNG" />
-      <option name="MAIN_CLASS_NAME" value="TestNG.Demo5" />
+      <option name="MAIN_CLASS_NAME" value="TestNG.PersonalLoan" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersonalLoan.personalLogin" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AncoreIncFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestNG.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestNG" />
+      <option name="MAIN_CLASS_NAME" value="TestNG.PersonalLoan" />
+      <option name="METHOD_NAME" value="personalLogin" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -93,23 +107,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="/Users/AntonSemenov/Desktop/AncoreIncFramework/testng_group.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AncoreIncFramework" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng_group.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG./Users/AntonSemenov/Desktop/AncoreIncFramework/param_testNG.xml" />
+        <item itemvalue="TestNG.PersonalLoan.personalLogin" />
+        <item itemvalue="TestNG.PersonalLoan" />
         <item itemvalue="TestNG.BusinessLoan" />
         <item itemvalue="TestNG./Users/AntonSemenov/Desktop/AncoreIncFramework/parameterization_testNG.xml" />
-        <item itemvalue="TestNG.Demo5" />
-        <item itemvalue="TestNG./Users/AntonSemenov/Desktop/AncoreIncFramework/testng_group.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -143,22 +147,22 @@
       <screen x="0" y="23" width="1440" height="845" />
     </state>
     <state x="408" y="190" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1440.845@0.23.1440.845" timestamp="1586475208638" />
-    <state width="1398" height="320" key="GridCell.Tab.0.bottom" timestamp="1586914363892">
+    <state width="1398" height="235" key="GridCell.Tab.0.bottom" timestamp="1586919971807">
       <screen x="0" y="23" width="1440" height="845" />
     </state>
-    <state width="1398" height="320" key="GridCell.Tab.0.bottom/0.23.1440.845@0.23.1440.845" timestamp="1586914363892" />
-    <state width="1398" height="320" key="GridCell.Tab.0.center" timestamp="1586914363891">
+    <state width="1398" height="235" key="GridCell.Tab.0.bottom/0.23.1440.845@0.23.1440.845" timestamp="1586919971807" />
+    <state width="1398" height="235" key="GridCell.Tab.0.center" timestamp="1586919971807">
       <screen x="0" y="23" width="1440" height="845" />
     </state>
-    <state width="1398" height="320" key="GridCell.Tab.0.center/0.23.1440.845@0.23.1440.845" timestamp="1586914363891" />
-    <state width="1398" height="320" key="GridCell.Tab.0.left" timestamp="1586914363891">
+    <state width="1398" height="235" key="GridCell.Tab.0.center/0.23.1440.845@0.23.1440.845" timestamp="1586919971807" />
+    <state width="1398" height="235" key="GridCell.Tab.0.left" timestamp="1586919971806">
       <screen x="0" y="23" width="1440" height="845" />
     </state>
-    <state width="1398" height="320" key="GridCell.Tab.0.left/0.23.1440.845@0.23.1440.845" timestamp="1586914363891" />
-    <state width="1398" height="320" key="GridCell.Tab.0.right" timestamp="1586914363891">
+    <state width="1398" height="235" key="GridCell.Tab.0.left/0.23.1440.845@0.23.1440.845" timestamp="1586919971806" />
+    <state width="1398" height="235" key="GridCell.Tab.0.right" timestamp="1586919971807">
       <screen x="0" y="23" width="1440" height="845" />
     </state>
-    <state width="1398" height="320" key="GridCell.Tab.0.right/0.23.1440.845@0.23.1440.845" timestamp="1586914363891" />
+    <state width="1398" height="235" key="GridCell.Tab.0.right/0.23.1440.845@0.23.1440.845" timestamp="1586919971807" />
     <state x="443" y="145" key="SettingsEditor" timestamp="1586900056827">
       <screen x="0" y="23" width="1440" height="845" />
     </state>

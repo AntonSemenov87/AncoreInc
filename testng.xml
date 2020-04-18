@@ -1,19 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
-    <test verbose="2" preserve-order="true" name="/Users/AntonSemenov/Desktop/AncoreIncFramework">
+    <test name="SureFirePlugin test">
         <classes>
-            <class name="TestNG_Anton.Demo">
-                <methods>
-                    <include name="firstTC"/>
-                    <include name="secondTC"/>
-                </methods>
-            </class>
-            <class name="TestNG_Anton.Demo2">
-                <methods>
-                    <include name="one"/>
-                </methods>
-            </class>
+            <class name="SureFirePlugin_test.FakeAppiumTest"/>
+
+            <class name="SureFirePlugin_test.FakeRestAPITest"/>
+
+            <class name="SureFirePlugin_test.FakeSeleniumTest"/>
+
         </classes>
     </test>
 </suite>

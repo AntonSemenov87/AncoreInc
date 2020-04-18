@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd48ae05-1e7b-4d2c-87a3-7a80bd27c2de" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/SureFirePlugin_test/FakeAppiumTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SureFirePlugin_test/FakeRestAPITest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SureFirePlugin_test/FakeSeleniumTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestNG_Anton/GlobalData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestNG_Anton/GlobalData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestNG_Anton/datadriven.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestNG_Anton/datadriven.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/AncoreIncFramework.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,22 +166,22 @@
       <screen x="0" y="23" width="1440" height="845" />
     </state>
     <state x="458" y="199" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.845@0.23.1440.845" timestamp="1586984719482" />
-    <state width="1398" height="197" key="GridCell.Tab.0.bottom" timestamp="1586989365772">
+    <state width="1398" height="197" key="GridCell.Tab.0.bottom" timestamp="1587183817276">
       <screen x="0" y="23" width="1440" height="845" />
     </state>
-    <state width="1398" height="197" key="GridCell.Tab.0.bottom/0.23.1440.845@0.23.1440.845" timestamp="1586989365772" />
-    <state width="1398" height="197" key="GridCell.Tab.0.center" timestamp="1586989365771">
+    <state width="1398" height="197" key="GridCell.Tab.0.bottom/0.23.1440.845@0.23.1440.845" timestamp="1587183817276" />
+    <state width="1398" height="197" key="GridCell.Tab.0.center" timestamp="1587183817275">
       <screen x="0" y="23" width="1440" height="845" />
     </state>
-    <state width="1398" height="197" key="GridCell.Tab.0.center/0.23.1440.845@0.23.1440.845" timestamp="1586989365771" />
-    <state width="1398" height="197" key="GridCell.Tab.0.left" timestamp="1586989365770">
+    <state width="1398" height="197" key="GridCell.Tab.0.center/0.23.1440.845@0.23.1440.845" timestamp="1587183817275" />
+    <state width="1398" height="197" key="GridCell.Tab.0.left" timestamp="1587183817275">
       <screen x="0" y="23" width="1440" height="845" />
     </state>
-    <state width="1398" height="197" key="GridCell.Tab.0.left/0.23.1440.845@0.23.1440.845" timestamp="1586989365770" />
-    <state width="1398" height="197" key="GridCell.Tab.0.right" timestamp="1586989365772">
+    <state width="1398" height="197" key="GridCell.Tab.0.left/0.23.1440.845@0.23.1440.845" timestamp="1587183817275" />
+    <state width="1398" height="197" key="GridCell.Tab.0.right" timestamp="1587183817276">
       <screen x="0" y="23" width="1440" height="845" />
     </state>
-    <state width="1398" height="197" key="GridCell.Tab.0.right/0.23.1440.845@0.23.1440.845" timestamp="1586989365772" />
+    <state width="1398" height="197" key="GridCell.Tab.0.right/0.23.1440.845@0.23.1440.845" timestamp="1587183817276" />
     <state x="443" y="145" key="SettingsEditor" timestamp="1586900056827">
       <screen x="0" y="23" width="1440" height="845" />
     </state>

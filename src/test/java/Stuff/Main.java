@@ -7,5 +7,7 @@ public class Main {
         Methods methods = new Methods();
         methods.validateHeader();
         System.out.println(methods.validateFooter());
+
+
     }
 }

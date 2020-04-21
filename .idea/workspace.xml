@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd48ae05-1e7b-4d2c-87a3-7a80bd27c2de" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Stuff/NeVajno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Stuff/PrintStringInReverse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Stuff/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Stuff/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Stuff/Methods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Stuff/Methods.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +39,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.PrintStringInReverse">
     <configuration name="LOL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TestNG_Anton.LOL" />
       <module name="AncoreIncFramework" />
@@ -55,6 +55,32 @@
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Stuff.Main" />
+      <module name="AncoreIncFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Stuff.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NeVajno" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Stuff.NeVajno" />
+      <module name="AncoreIncFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Stuff.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrintStringInReverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Stuff.PrintStringInReverse" />
       <module name="AncoreIncFramework" />
       <extension name="coverage">
         <pattern>
@@ -83,41 +109,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GlobalData.login" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AncoreIncFramework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TestNG_Anton.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="TestNG_Anton" />
-      <option name="MAIN_CLASS_NAME" value="TestNG_Anton.GlobalData" />
-      <option name="METHOD_NAME" value="login" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="/Users/AntonSemenov/Desktop/AncoreIncFramework/param_testNG.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AncoreIncFramework" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/param_testNG.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PrintStringInReverse" />
+        <item itemvalue="Application.NeVajno" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.LOL" />
         <item itemvalue="TestNG.GlobalData" />
-        <item itemvalue="TestNG.GlobalData.login" />
-        <item itemvalue="TestNG./Users/AntonSemenov/Desktop/AncoreIncFramework/param_testNG.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -159,26 +157,26 @@
       <screen x="0" y="23" width="1440" height="845" />
     </state>
     <state x="496" y="250" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1440.845@0.23.1440.845" timestamp="1587444075315" />
-    <state x="458" y="199" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1586984719482">
+    <state x="458" y="199" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587445677883">
       <screen x="0" y="23" width="1440" height="845" />
     </state>
-    <state x="458" y="199" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.845@0.23.1440.845" timestamp="1586984719482" />
-    <state width="1398" height="197" key="GridCell.Tab.0.bottom" timestamp="1587445042392">
+    <state x="458" y="199" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.845@0.23.1440.845" timestamp="1587445677883" />
+    <state width="1398" height="422" key="GridCell.Tab.0.bottom" timestamp="1587446174344">
       <screen x="0" y="23" width="1440" height="845" />
     </state>
-    <state width="1398" height="197" key="GridCell.Tab.0.bottom/0.23.1440.845@0.23.1440.845" timestamp="1587445042392" />
-    <state width="1398" height="197" key="GridCell.Tab.0.center" timestamp="1587445042391">
+    <state width="1398" height="422" key="GridCell.Tab.0.bottom/0.23.1440.845@0.23.1440.845" timestamp="1587446174344" />
+    <state width="1398" height="422" key="GridCell.Tab.0.center" timestamp="1587446174342">
       <screen x="0" y="23" width="1440" height="845" />
     </state>
-    <state width="1398" height="197" key="GridCell.Tab.0.center/0.23.1440.845@0.23.1440.845" timestamp="1587445042391" />
-    <state width="1398" height="197" key="GridCell.Tab.0.left" timestamp="1587445042391">
+    <state width="1398" height="422" key="GridCell.Tab.0.center/0.23.1440.845@0.23.1440.845" timestamp="1587446174342" />
+    <state width="1398" height="422" key="GridCell.Tab.0.left" timestamp="1587446174341">
       <screen x="0" y="23" width="1440" height="845" />
     </state>
-    <state width="1398" height="197" key="GridCell.Tab.0.left/0.23.1440.845@0.23.1440.845" timestamp="1587445042391" />
-    <state width="1398" height="197" key="GridCell.Tab.0.right" timestamp="1587445042392">
+    <state width="1398" height="422" key="GridCell.Tab.0.left/0.23.1440.845@0.23.1440.845" timestamp="1587446174341" />
+    <state width="1398" height="422" key="GridCell.Tab.0.right" timestamp="1587446174343">
       <screen x="0" y="23" width="1440" height="845" />
     </state>
-    <state width="1398" height="197" key="GridCell.Tab.0.right/0.23.1440.845@0.23.1440.845" timestamp="1587445042392" />
+    <state width="1398" height="422" key="GridCell.Tab.0.right/0.23.1440.845@0.23.1440.845" timestamp="1587446174343" />
     <state x="443" y="145" key="SettingsEditor" timestamp="1587272754321">
       <screen x="0" y="23" width="1440" height="845" />
     </state>

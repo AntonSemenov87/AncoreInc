@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd48ae05-1e7b-4d2c-87a3-7a80bd27c2de" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/SureFirePlugin_test/FakeAppiumTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SureFirePlugin_test/FakeRestAPITest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SureFirePlugin_test/FakeSeleniumTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smokeForSureFire.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/AncoreIncFramework.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/regressionForSureFire.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,12 +29,31 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="TestNG.GlobalData">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.LOL">
+    <configuration name="LOL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestNG_Anton.LOL" />
+      <module name="AncoreIncFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestNG_Anton.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GlobalData" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AncoreIncFramework" />
       <extension name="coverage">
@@ -67,23 +83,6 @@
       <option name="MAIN_CLASS_NAME" value="TestNG_Anton.GlobalData" />
       <option name="METHOD_NAME" value="login" />
       <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PersonalLoan" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AncoreIncFramework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TestNG_Anton.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="TestNG" />
-      <option name="MAIN_CLASS_NAME" value="TestNG.PersonalLoan" />
-      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -120,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LOL" />
         <item itemvalue="TestNG.GlobalData" />
         <item itemvalue="TestNG.GlobalData.login" />
         <item itemvalue="TestNG./Users/AntonSemenov/Desktop/AncoreIncFramework/param_testNG.xml" />
         <item itemvalue="TestNG.PersonalLoan.personalLogin" />
-        <item itemvalue="TestNG.PersonalLoan" />
       </list>
     </recent_temporary>
   </component>
@@ -166,26 +165,26 @@
       <screen x="0" y="23" width="1440" height="845" />
     </state>
     <state x="458" y="199" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.845@0.23.1440.845" timestamp="1586984719482" />
-    <state width="1398" height="197" key="GridCell.Tab.0.bottom" timestamp="1587183817276">
+    <state width="1398" height="197" key="GridCell.Tab.0.bottom" timestamp="1587273930996">
       <screen x="0" y="23" width="1440" height="845" />
     </state>
-    <state width="1398" height="197" key="GridCell.Tab.0.bottom/0.23.1440.845@0.23.1440.845" timestamp="1587183817276" />
-    <state width="1398" height="197" key="GridCell.Tab.0.center" timestamp="1587183817275">
+    <state width="1398" height="197" key="GridCell.Tab.0.bottom/0.23.1440.845@0.23.1440.845" timestamp="1587273930996" />
+    <state width="1398" height="197" key="GridCell.Tab.0.center" timestamp="1587273930995">
       <screen x="0" y="23" width="1440" height="845" />
     </state>
-    <state width="1398" height="197" key="GridCell.Tab.0.center/0.23.1440.845@0.23.1440.845" timestamp="1587183817275" />
-    <state width="1398" height="197" key="GridCell.Tab.0.left" timestamp="1587183817275">
+    <state width="1398" height="197" key="GridCell.Tab.0.center/0.23.1440.845@0.23.1440.845" timestamp="1587273930995" />
+    <state width="1398" height="197" key="GridCell.Tab.0.left" timestamp="1587273930995">
       <screen x="0" y="23" width="1440" height="845" />
     </state>
-    <state width="1398" height="197" key="GridCell.Tab.0.left/0.23.1440.845@0.23.1440.845" timestamp="1587183817275" />
-    <state width="1398" height="197" key="GridCell.Tab.0.right" timestamp="1587183817276">
+    <state width="1398" height="197" key="GridCell.Tab.0.left/0.23.1440.845@0.23.1440.845" timestamp="1587273930995" />
+    <state width="1398" height="197" key="GridCell.Tab.0.right" timestamp="1587273930995">
       <screen x="0" y="23" width="1440" height="845" />
     </state>
-    <state width="1398" height="197" key="GridCell.Tab.0.right/0.23.1440.845@0.23.1440.845" timestamp="1587183817276" />
-    <state x="443" y="145" key="SettingsEditor" timestamp="1586900056827">
+    <state width="1398" height="197" key="GridCell.Tab.0.right/0.23.1440.845@0.23.1440.845" timestamp="1587273930995" />
+    <state x="443" y="145" key="SettingsEditor" timestamp="1587272754321">
       <screen x="0" y="23" width="1440" height="845" />
     </state>
-    <state x="443" y="145" key="SettingsEditor/0.23.1440.845@0.23.1440.845" timestamp="1586900056827" />
+    <state x="443" y="145" key="SettingsEditor/0.23.1440.845@0.23.1440.845" timestamp="1587272754321" />
     <state x="385" y="192" width="670" height="676" key="search.everywhere.popup" timestamp="1586983884371">
       <screen x="0" y="23" width="1440" height="845" />
     </state>

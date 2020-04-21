@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd48ae05-1e7b-4d2c-87a3-7a80bd27c2de" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/smokeForSureFire.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Stuff/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Stuff/Methods.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/regressionForSureFire.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,26 +160,30 @@
       <screen x="0" y="23" width="1440" height="845" />
     </state>
     <state x="408" y="190" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1440.845@0.23.1440.845" timestamp="1586475208638" />
+    <state x="496" y="250" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1587444075315">
+      <screen x="0" y="23" width="1440" height="845" />
+    </state>
+    <state x="496" y="250" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1440.845@0.23.1440.845" timestamp="1587444075315" />
     <state x="458" y="199" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1586984719482">
       <screen x="0" y="23" width="1440" height="845" />
     </state>
     <state x="458" y="199" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.845@0.23.1440.845" timestamp="1586984719482" />
-    <state width="1398" height="197" key="GridCell.Tab.0.bottom" timestamp="1587273930996">
+    <state width="1398" height="197" key="GridCell.Tab.0.bottom" timestamp="1587441708876">
       <screen x="0" y="23" width="1440" height="845" />
     </state>
-    <state width="1398" height="197" key="GridCell.Tab.0.bottom/0.23.1440.845@0.23.1440.845" timestamp="1587273930996" />
-    <state width="1398" height="197" key="GridCell.Tab.0.center" timestamp="1587273930995">
+    <state width="1398" height="197" key="GridCell.Tab.0.bottom/0.23.1440.845@0.23.1440.845" timestamp="1587441708876" />
+    <state width="1398" height="197" key="GridCell.Tab.0.center" timestamp="1587441708875">
       <screen x="0" y="23" width="1440" height="845" />
     </state>
-    <state width="1398" height="197" key="GridCell.Tab.0.center/0.23.1440.845@0.23.1440.845" timestamp="1587273930995" />
-    <state width="1398" height="197" key="GridCell.Tab.0.left" timestamp="1587273930995">
+    <state width="1398" height="197" key="GridCell.Tab.0.center/0.23.1440.845@0.23.1440.845" timestamp="1587441708875" />
+    <state width="1398" height="197" key="GridCell.Tab.0.left" timestamp="1587441708875">
       <screen x="0" y="23" width="1440" height="845" />
     </state>
-    <state width="1398" height="197" key="GridCell.Tab.0.left/0.23.1440.845@0.23.1440.845" timestamp="1587273930995" />
-    <state width="1398" height="197" key="GridCell.Tab.0.right" timestamp="1587273930995">
+    <state width="1398" height="197" key="GridCell.Tab.0.left/0.23.1440.845@0.23.1440.845" timestamp="1587441708875" />
+    <state width="1398" height="197" key="GridCell.Tab.0.right" timestamp="1587441708876">
       <screen x="0" y="23" width="1440" height="845" />
     </state>
-    <state width="1398" height="197" key="GridCell.Tab.0.right/0.23.1440.845@0.23.1440.845" timestamp="1587273930995" />
+    <state width="1398" height="197" key="GridCell.Tab.0.right/0.23.1440.845@0.23.1440.845" timestamp="1587441708876" />
     <state x="443" y="145" key="SettingsEditor" timestamp="1587272754321">
       <screen x="0" y="23" width="1440" height="845" />
     </state>

@@ -6,5 +6,6 @@ public class Main {
         System.out.println("I navigated to Home page");
         Methods methods = new Methods();
         methods.validateHeader();
+        System.out.println(methods.validateFooter());
     }
 }

@@ -2,6 +2,7 @@ package Stuff;
 
 public class NeVajno {
     public static void main(String[] args) {
+
         String str = "Payment $100 paid";
         System.out.println(str.charAt(8));
 
@@ -10,5 +11,6 @@ public class NeVajno {
 
         String part = str.substring(8);
         System.out.println(part);
+
     }
 }

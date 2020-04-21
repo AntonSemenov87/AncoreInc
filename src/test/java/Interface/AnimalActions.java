@@ -1,4 +1,4 @@
-package Stuff;
+package Interface;
 
 public interface AnimalActions {
 

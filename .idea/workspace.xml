@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd48ae05-1e7b-4d2c-87a3-7a80bd27c2de" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Inheritance/ChildClassDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Inheritance/ParentClassDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/RestAssured_practice/Basics.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RestAssured_practice/Basics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestAssured_practice/Basics.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,14 +32,14 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.validation" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ChildClassDemo">
+  <component name="RunManager" selected="Application.Basics">
     <configuration name="AustralianTraffic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Interface.AustralianTraffic" />
       <module name="AncoreIncFramework" />
@@ -56,12 +53,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ChildClassDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Inheritance.ChildClassDemo" />
+    <configuration name="Basics" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RestAssured_practice.Basics" />
       <module name="AncoreIncFramework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Inheritance.*" />
+          <option name="PATTERN" value="RestAssured_practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -69,12 +66,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrintStringInReverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Stuff.PrintStringInReverse" />
+    <configuration name="ChildClassDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Inheritance.ChildClassDemo" />
       <module name="AncoreIncFramework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Interface.*" />
+          <option name="PATTERN" value="Inheritance.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,11 +107,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Basics" />
         <item itemvalue="Application.ChildClassDemo" />
         <item itemvalue="Application.AustralianTraffic" />
         <item itemvalue="Application.Zoo" />
         <item itemvalue="Application.Wolf" />
-        <item itemvalue="Application.PrintStringInReverse" />
       </list>
     </recent_temporary>
   </component>
@@ -160,26 +157,26 @@
       <screen x="0" y="23" width="1440" height="845" />
     </state>
     <state x="458" y="199" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.845@0.23.1440.845" timestamp="1587445677883" />
-    <state width="1398" height="77" key="GridCell.Tab.0.bottom" timestamp="1587503766668">
+    <state width="1398" height="403" key="GridCell.Tab.0.bottom" timestamp="1587543835004">
       <screen x="0" y="23" width="1440" height="845" />
     </state>
-    <state width="1398" height="77" key="GridCell.Tab.0.bottom/0.23.1440.845@0.23.1440.845" timestamp="1587503766668" />
-    <state width="1398" height="77" key="GridCell.Tab.0.center" timestamp="1587503766667">
+    <state width="1398" height="403" key="GridCell.Tab.0.bottom/0.23.1440.845@0.23.1440.845" timestamp="1587543835004" />
+    <state width="1398" height="403" key="GridCell.Tab.0.center" timestamp="1587543835003">
       <screen x="0" y="23" width="1440" height="845" />
     </state>
-    <state width="1398" height="77" key="GridCell.Tab.0.center/0.23.1440.845@0.23.1440.845" timestamp="1587503766667" />
-    <state width="1398" height="77" key="GridCell.Tab.0.left" timestamp="1587503766667">
+    <state width="1398" height="403" key="GridCell.Tab.0.center/0.23.1440.845@0.23.1440.845" timestamp="1587543835003" />
+    <state width="1398" height="403" key="GridCell.Tab.0.left" timestamp="1587543835003">
       <screen x="0" y="23" width="1440" height="845" />
     </state>
-    <state width="1398" height="77" key="GridCell.Tab.0.left/0.23.1440.845@0.23.1440.845" timestamp="1587503766667" />
-    <state width="1398" height="77" key="GridCell.Tab.0.right" timestamp="1587503766668">
+    <state width="1398" height="403" key="GridCell.Tab.0.left/0.23.1440.845@0.23.1440.845" timestamp="1587543835003" />
+    <state width="1398" height="403" key="GridCell.Tab.0.right" timestamp="1587543835004">
       <screen x="0" y="23" width="1440" height="845" />
     </state>
-    <state width="1398" height="77" key="GridCell.Tab.0.right/0.23.1440.845@0.23.1440.845" timestamp="1587503766668" />
-    <state x="162" y="31" key="SettingsEditor" timestamp="1587503242893">
+    <state width="1398" height="403" key="GridCell.Tab.0.right/0.23.1440.845@0.23.1440.845" timestamp="1587543835004" />
+    <state x="162" y="31" key="SettingsEditor" timestamp="1587543686358">
       <screen x="0" y="23" width="1440" height="845" />
     </state>
-    <state x="162" y="31" key="SettingsEditor/0.23.1440.845@0.23.1440.845" timestamp="1587503242893" />
+    <state x="162" y="31" key="SettingsEditor/0.23.1440.845@0.23.1440.845" timestamp="1587543686358" />
     <state x="385" y="192" width="670" height="676" key="search.everywhere.popup" timestamp="1586983884371">
       <screen x="0" y="23" width="1440" height="845" />
     </state>

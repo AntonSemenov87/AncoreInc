@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd48ae05-1e7b-4d2c-87a3-7a80bd27c2de" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Stuff/API_test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Zoo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/RestAssured_practice/Basics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestAssured_practice/Basics.java" afterDir="false" />
     </list>
@@ -39,7 +41,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Basics">
+  <component name="RunManager" selected="TestNG.API_test">
     <configuration name="AustralianTraffic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Interface.AustralianTraffic" />
       <module name="AncoreIncFramework" />
@@ -79,19 +81,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Wolf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Interface.Wolf" />
-      <module name="AncoreIncFramework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Interface.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Zoo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Interface.Zoo" />
       <module name="AncoreIncFramework" />
@@ -105,13 +94,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Zoo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Zoo" />
+      <module name="AncoreIncFramework" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="API_test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AncoreIncFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Stuff.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Stuff" />
+      <option name="MAIN_CLASS_NAME" value="Stuff.API_test" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.API_test" />
+        <item itemvalue="Application.Zoo" />
         <item itemvalue="Application.Basics" />
         <item itemvalue="Application.ChildClassDemo" />
         <item itemvalue="Application.AustralianTraffic" />
-        <item itemvalue="Application.Zoo" />
-        <item itemvalue="Application.Wolf" />
       </list>
     </recent_temporary>
   </component>
@@ -149,30 +162,46 @@
       <screen x="0" y="23" width="1440" height="845" />
     </state>
     <state x="408" y="190" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1440.845@0.23.1440.845" timestamp="1586475208638" />
-    <state x="496" y="250" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1587444075315">
+    <state x="496" y="250" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1587584938404">
       <screen x="0" y="23" width="1440" height="845" />
     </state>
-    <state x="496" y="250" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1440.845@0.23.1440.845" timestamp="1587444075315" />
+    <state x="496" y="250" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1440.845@0.23.1440.845" timestamp="1587584938404" />
     <state x="458" y="199" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587445677883">
       <screen x="0" y="23" width="1440" height="845" />
     </state>
     <state x="458" y="199" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.845@0.23.1440.845" timestamp="1587445677883" />
-    <state width="1398" height="403" key="GridCell.Tab.0.bottom" timestamp="1587543835004">
+    <state width="1398" height="176" key="GridCell.Tab.0.bottom" timestamp="1587548758161">
       <screen x="0" y="23" width="1440" height="845" />
     </state>
-    <state width="1398" height="403" key="GridCell.Tab.0.bottom/0.23.1440.845@0.23.1440.845" timestamp="1587543835004" />
-    <state width="1398" height="403" key="GridCell.Tab.0.center" timestamp="1587543835003">
+    <state width="1398" height="176" key="GridCell.Tab.0.bottom/0.23.1440.845@0.23.1440.845" timestamp="1587548758161" />
+    <state width="1398" height="176" key="GridCell.Tab.0.center" timestamp="1587548758161">
       <screen x="0" y="23" width="1440" height="845" />
     </state>
-    <state width="1398" height="403" key="GridCell.Tab.0.center/0.23.1440.845@0.23.1440.845" timestamp="1587543835003" />
-    <state width="1398" height="403" key="GridCell.Tab.0.left" timestamp="1587543835003">
+    <state width="1398" height="176" key="GridCell.Tab.0.center/0.23.1440.845@0.23.1440.845" timestamp="1587548758161" />
+    <state width="1398" height="176" key="GridCell.Tab.0.left" timestamp="1587548758160">
       <screen x="0" y="23" width="1440" height="845" />
     </state>
-    <state width="1398" height="403" key="GridCell.Tab.0.left/0.23.1440.845@0.23.1440.845" timestamp="1587543835003" />
-    <state width="1398" height="403" key="GridCell.Tab.0.right" timestamp="1587543835004">
+    <state width="1398" height="176" key="GridCell.Tab.0.left/0.23.1440.845@0.23.1440.845" timestamp="1587548758160" />
+    <state width="1398" height="176" key="GridCell.Tab.0.right" timestamp="1587548758161">
       <screen x="0" y="23" width="1440" height="845" />
     </state>
-    <state width="1398" height="403" key="GridCell.Tab.0.right/0.23.1440.845@0.23.1440.845" timestamp="1587543835004" />
+    <state width="1398" height="176" key="GridCell.Tab.0.right/0.23.1440.845@0.23.1440.845" timestamp="1587548758161" />
+    <state width="1398" height="273" key="GridCell.Tab.1.bottom" timestamp="1587547801063">
+      <screen x="0" y="23" width="1440" height="845" />
+    </state>
+    <state width="1398" height="273" key="GridCell.Tab.1.bottom/0.23.1440.845@0.23.1440.845" timestamp="1587547801063" />
+    <state width="1398" height="273" key="GridCell.Tab.1.center" timestamp="1587547801062">
+      <screen x="0" y="23" width="1440" height="845" />
+    </state>
+    <state width="1398" height="273" key="GridCell.Tab.1.center/0.23.1440.845@0.23.1440.845" timestamp="1587547801062" />
+    <state width="1398" height="273" key="GridCell.Tab.1.left" timestamp="1587547801061">
+      <screen x="0" y="23" width="1440" height="845" />
+    </state>
+    <state width="1398" height="273" key="GridCell.Tab.1.left/0.23.1440.845@0.23.1440.845" timestamp="1587547801061" />
+    <state width="1398" height="273" key="GridCell.Tab.1.right" timestamp="1587547801062">
+      <screen x="0" y="23" width="1440" height="845" />
+    </state>
+    <state width="1398" height="273" key="GridCell.Tab.1.right/0.23.1440.845@0.23.1440.845" timestamp="1587547801062" />
     <state x="162" y="31" key="SettingsEditor" timestamp="1587543686358">
       <screen x="0" y="23" width="1440" height="845" />
     </state>
@@ -181,5 +210,8 @@
       <screen x="0" y="23" width="1440" height="845" />
     </state>
     <state x="385" y="192" width="670" height="676" key="search.everywhere.popup/0.23.1440.845@0.23.1440.845" timestamp="1586983884371" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/AncoreInc$_C.ic" NAME="_C Coverage Results" MODIFIED="1587547680249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

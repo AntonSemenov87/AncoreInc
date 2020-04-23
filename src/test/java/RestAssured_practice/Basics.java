@@ -3,6 +3,8 @@ package RestAssured_practice;
 
 import files.Payload;
 import io.restassured.RestAssured;
+import io.restassured.response.Response;
+
 import static io.restassured.RestAssured.*;
 import static  org.hamcrest.Matchers.*;
 
@@ -12,7 +14,7 @@ public class Basics {
         // validate if Add Place API is working
         // given, when, then
         // given --> all input details
-        // when --> submit the API -- resource and http methods
+        // when --> submit the API -- http method and resource
         // then --> validate the response
 
         // Step 1 - create a place
@@ -24,6 +26,7 @@ public class Basics {
 
 
         // Step 2 - update a place, get place_id number and re-use it
+
 
 
     }

@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd48ae05-1e7b-4d2c-87a3-7a80bd27c2de" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/RestAssured_practice/ComplexJsonParse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/RestAssured_practice/ReusableMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/RA_api/Basics.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/RestAssured_practice/Basics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestAssured_practice/Basics.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/files/Payload.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/files/Payload.java" afterDir="false" />
     </list>
@@ -42,13 +42,13 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Basics">
-    <configuration name="AustralianTraffic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Interface.AustralianTraffic" />
+  <component name="RunManager" selected="Application.Basics (1)">
+    <configuration name="Basics (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RA_api.Basics" />
       <module name="AncoreIncFramework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Interface.*" />
+          <option name="PATTERN" value="RA_api.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Basics (1)" />
         <item itemvalue="Application.Basics" />
         <item itemvalue="TestNG.API_test" />
         <item itemvalue="Application.Zoo" />
         <item itemvalue="Application.ChildClassDemo" />
-        <item itemvalue="Application.AustralianTraffic" />
       </list>
     </recent_temporary>
   </component>
@@ -171,25 +171,25 @@
       <screen x="0" y="23" width="1440" height="845" />
     </state>
     <state x="458" y="199" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.845@0.23.1440.845" timestamp="1587445677883" />
-    <state width="1398" height="695" key="GridCell.Tab.0.bottom" timestamp="1587690301898">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="1398" height="695" key="GridCell.Tab.0.bottom" timestamp="1587760086643">
+      <screen x="0" y="23" width="1440" height="845" />
     </state>
-    <state width="1398" height="663" key="GridCell.Tab.0.bottom/0.23.1440.845@0.23.1440.845" timestamp="1587613557689" />
+    <state width="1398" height="695" key="GridCell.Tab.0.bottom/0.23.1440.845@0.23.1440.845" timestamp="1587760086643" />
     <state width="1398" height="695" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1587690301898" />
-    <state width="1398" height="695" key="GridCell.Tab.0.center" timestamp="1587690301897">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="1398" height="695" key="GridCell.Tab.0.center" timestamp="1587760086642">
+      <screen x="0" y="23" width="1440" height="845" />
     </state>
-    <state width="1398" height="663" key="GridCell.Tab.0.center/0.23.1440.845@0.23.1440.845" timestamp="1587613557688" />
+    <state width="1398" height="695" key="GridCell.Tab.0.center/0.23.1440.845@0.23.1440.845" timestamp="1587760086642" />
     <state width="1398" height="695" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1587690301897" />
-    <state width="1398" height="695" key="GridCell.Tab.0.left" timestamp="1587690301897">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="1398" height="695" key="GridCell.Tab.0.left" timestamp="1587760086641">
+      <screen x="0" y="23" width="1440" height="845" />
     </state>
-    <state width="1398" height="663" key="GridCell.Tab.0.left/0.23.1440.845@0.23.1440.845" timestamp="1587613557687" />
+    <state width="1398" height="695" key="GridCell.Tab.0.left/0.23.1440.845@0.23.1440.845" timestamp="1587760086641" />
     <state width="1398" height="695" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1587690301897" />
-    <state width="1398" height="695" key="GridCell.Tab.0.right" timestamp="1587690301898">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="1398" height="695" key="GridCell.Tab.0.right" timestamp="1587760086643">
+      <screen x="0" y="23" width="1440" height="845" />
     </state>
-    <state width="1398" height="663" key="GridCell.Tab.0.right/0.23.1440.845@0.23.1440.845" timestamp="1587613557688" />
+    <state width="1398" height="695" key="GridCell.Tab.0.right/0.23.1440.845@0.23.1440.845" timestamp="1587760086643" />
     <state width="1398" height="695" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1587690301898" />
     <state width="1398" height="273" key="GridCell.Tab.1.bottom" timestamp="1587690301890">
       <screen x="0" y="23" width="1440" height="877" />

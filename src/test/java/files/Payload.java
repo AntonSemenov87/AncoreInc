@@ -11,7 +11,7 @@ public class Payload {
                 "  \"accuracy\": 50,\n" +
                 "  \"name\": \"Frontline house\",\n" +
                 "  \"phone_number\": \"(+91) 983 893 3937\",\n" +
-                "  \"address\": \"29, side layout, cohen 09\",\n" +
+                "  \"address\": \"7226 W Belden ave, apt. 3\",\n" +
                 "  \"types\": [\n" +
                 "    \"shoe park\",\n" +
                 "    \"shop\"\n" +

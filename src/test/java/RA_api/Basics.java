@@ -1,8 +1,13 @@
 package RA_api;
 
 import static io.restassured.RestAssured.*;
-import io.restassured.RestAssured;
 
+import files.Payload;
+import io.restassured.RestAssured;
+import static org.hamcrest.Matchers.*;
+
+import io.restassured.path.json.JsonPath;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class Basics {
@@ -14,29 +19,56 @@ public class Basics {
         //then --> validate response
 
         RestAssured.baseURI = "https://rahulshettyacademy.com";
-        given().log().all()
+String response = given().log().all()
                 .queryParam("key", "qaclick123").
                 header("Content-Type", "application/json").
-                body("{\n" +
-                        "  \"location\": {\n" +
-                        "    \"lat\": -38.383494,\n" +
-                        "    \"lng\": 33.427362\n" +
-                        "  },\n" +
-                        "  \"accuracy\": 50,\n" +
-                        "  \"name\": \"Club House\",\n" +
-                        "  \"phone_number\": \"(+91) 983 893 3937\",\n" +
-                        "  \"address\": \"7226 W Belden ave\",\n" +
-                        "  \"types\": [\n" +
-                        "    \"shoe park\",\n" +
-                        "    \"shop\"\n" +
-                        "  ],\n" +
-                        "  \"website\": \"http://www.clubhouse.com\",\n" +
-                        "  \"language\": \"Russian-EN\"\n" +
-                        "}").
+                body(Payload.addPlace()).
         when()
                 .post("maps/api/place/add/json").
-        then().log().all()
-                .assertThat().statusCode(200);
+        then()
+                .assertThat().statusCode(200)
+                .body("scope", equalTo("APP"))
+                .header("Server", equalTo("Apache/2.4.18 (Ubuntu)"))
+        .extract().response().asString();
+
+        System.out.println(response);
+
+        JsonPath jp = new JsonPath(response);
+        String placeId = jp.getString("place_id");
+        System.out.println(placeId);
+
+
+        // Update place with new address (change it in Payload.addPlace())
+        String newAddress = "1914 W Division Street, Chicago";
+
+        given()
+                .log().all().queryParam("key", "qaclick123")
+                .header("Content-Type", "application/json")
+                .body("{\n" +
+                        "\"place_id\":\"" + placeId + "\",\n" +
+                        "\"address\":\"" + newAddress + "\",\n" +
+                        "\"key\":\"qaclick123\"\n" +
+                        "}")
+        .when()
+                .put("maps/api/place/update/json")
+        .then().log().all().assertThat().statusCode(200).body("msg", equalTo("Address successfully updated"));
+
+        // Get place in order to see if address is updated
+
+        String getResponse = given()
+                .log().all().queryParam("key", "qaclick123").queryParam("place_id", placeId)
+        .when()
+                .get("maps/api/place/get/json")
+        .then()
+                .log().all().assertThat().statusCode(200)
+        .extract().response().asString();
+
+
+        JsonPath jpGet = new JsonPath(getResponse);
+        String updatedAddress = jpGet.getString("address");
+        System.out.println(updatedAddress);
+
+        Assert.assertEquals(updatedAddress,newAddress);
 
     }
 

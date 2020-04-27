@@ -9,11 +9,11 @@ public class ReverseString {
         String [] arr = str.split(" ");
 
         String reversed = "";
+
         for (String word : arr) {
-            char [] ch = word.toCharArray();
-            for (int i = ch.length-1; i >= 0 ; i--) {
-                reversed += ch[i] + "";
-            }
+            StringBuilder word1 = new StringBuilder(word);
+            word1 = word1.reverse();
+            reversed += word1 + " ";
         }
         System.out.println(reversed);
     }

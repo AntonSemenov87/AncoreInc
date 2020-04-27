@@ -64,12 +64,12 @@ String response = given().log().all()
         .extract().response().asString();
 
 
-        JsonPath jpGet = new JsonPath(getResponse);
-        String updatedAddress = jpGet.getString("address");
-        System.out.println(updatedAddress);
+        JsonPath jpGetResponse = ReusableMethods.rawToJson(getResponse);
+        String actualAddress = jpGetResponse.getString("address");
+        System.out.println(actualAddress);
 
-        Assert.assertEquals(updatedAddress,newAddress);
+        Assert.assertEquals(actualAddress,newAddress);
 
-    }
+    } 
 
 }

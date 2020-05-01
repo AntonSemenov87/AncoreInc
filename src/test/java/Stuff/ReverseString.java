@@ -48,5 +48,19 @@ public class ReverseString {
             finito += sb;
         }
         System.out.println(finito);
+
+
+        // Task 4
+        // quantity of letters in each word and total
+        String opt = "This is Anton Semenov";
+        String [] words = opt.split(" ");
+        int size = 0;
+        int total = 0;
+        for (String one : words) {
+            size = one.length();
+            System.out.println("Size of word " + one + " is " + size);
+            total += size;
+        }
+        System.out.println("Total characters: " + total);
     }
 }

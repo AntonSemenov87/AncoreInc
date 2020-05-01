@@ -31,5 +31,22 @@ public class ReverseString {
             }
         }
         System.out.println(result);
+
+
+
+        // Task 3
+        // Reverse String and Strings
+        String str1 = "Anton Semenov";
+        StringBuilder str2 = new StringBuilder(str1);
+        String str3 = str2.reverse().toString();
+        System.out.println(str2);
+        String [] arr2 = str1.split(" ");
+        String finito = "";
+        for (String word1: arr2) {
+            StringBuilder sb = new StringBuilder(word1);
+            sb.reverse();
+            finito += sb;
+        }
+        System.out.println(finito);
     }
 }

@@ -62,5 +62,17 @@ public class ReverseString {
             total += size;
         }
         System.out.println("Total characters: " + total);
+
+        // Task 4
+        // find out all repeated letters
+        String name = "A-ba-ba-ha-la-ma-ha";
+        String [] array = name.split("");
+        String resulto = "";
+        for (int i = 0; i < array.length; i++) {
+            if (resulto.contains(array[i])) {
+                resulto += array[i];
+            }
+        }
+        System.out.println(resulto);
     }
 }

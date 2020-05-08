@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd48ae05-1e7b-4d2c-87a3-7a80bd27c2de" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Stuff/NeVajno1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,26 +39,13 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.anotherOne">
-    <configuration name="Basics (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RA_api.Basics" />
+  <component name="RunManager" selected="TestNG.NeVajno1">
+    <configuration name="NeVajno" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Stuff.NeVajno" />
       <module name="AncoreIncFramework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="RA_api.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Basics" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RestAssured_practice.Basics" />
-      <module name="AncoreIncFramework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="RestAssured_practice.*" />
+          <option name="PATTERN" value="Stuff.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,13 +66,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Zoo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Zoo" />
-      <module name="AncoreIncFramework" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="anotherOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Stuff.anotherOne" />
       <module name="AncoreIncFramework" />
@@ -98,7 +79,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="API_test" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="NeVajno1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AncoreIncFramework" />
       <extension name="coverage">
         <pattern>
@@ -107,8 +88,26 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Stuff" />
-      <option name="MAIN_CLASS_NAME" value="Stuff.API_test" />
+      <option name="MAIN_CLASS_NAME" value="Stuff.NeVajno1" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NeVajno1.checkNumOfLinks" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AncoreIncFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Stuff.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Stuff" />
+      <option name="MAIN_CLASS_NAME" value="Stuff.NeVajno1" />
+      <option name="METHOD_NAME" value="checkNumOfLinks" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -117,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.NeVajno1" />
+        <item itemvalue="TestNG.NeVajno1.checkNumOfLinks" />
+        <item itemvalue="Application.NeVajno" />
         <item itemvalue="Application.anotherOne" />
         <item itemvalue="Application.ReverseString" />
-        <item itemvalue="Application.Basics (1)" />
-        <item itemvalue="Application.Basics" />
-        <item itemvalue="TestNG.API_test" />
       </list>
     </recent_temporary>
   </component>
@@ -167,25 +166,25 @@
       <screen x="0" y="23" width="1440" height="845" />
     </state>
     <state x="458" y="199" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.845@0.23.1440.845" timestamp="1587445677883" />
-    <state width="1398" height="273" key="GridCell.Tab.0.bottom" timestamp="1588706489232">
+    <state width="1398" height="293" key="GridCell.Tab.0.bottom" timestamp="1588904939181">
       <screen x="0" y="23" width="1440" height="845" />
     </state>
-    <state width="1398" height="273" key="GridCell.Tab.0.bottom/0.23.1440.845@0.23.1440.845" timestamp="1588706489232" />
+    <state width="1398" height="293" key="GridCell.Tab.0.bottom/0.23.1440.845@0.23.1440.845" timestamp="1588904939181" />
     <state width="1398" height="695" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1587690301898" />
-    <state width="1398" height="273" key="GridCell.Tab.0.center" timestamp="1588706489231">
+    <state width="1398" height="293" key="GridCell.Tab.0.center" timestamp="1588904939180">
       <screen x="0" y="23" width="1440" height="845" />
     </state>
-    <state width="1398" height="273" key="GridCell.Tab.0.center/0.23.1440.845@0.23.1440.845" timestamp="1588706489231" />
+    <state width="1398" height="293" key="GridCell.Tab.0.center/0.23.1440.845@0.23.1440.845" timestamp="1588904939180" />
     <state width="1398" height="695" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1587690301897" />
-    <state width="1398" height="273" key="GridCell.Tab.0.left" timestamp="1588706489231">
+    <state width="1398" height="293" key="GridCell.Tab.0.left" timestamp="1588904939180">
       <screen x="0" y="23" width="1440" height="845" />
     </state>
-    <state width="1398" height="273" key="GridCell.Tab.0.left/0.23.1440.845@0.23.1440.845" timestamp="1588706489231" />
+    <state width="1398" height="293" key="GridCell.Tab.0.left/0.23.1440.845@0.23.1440.845" timestamp="1588904939180" />
     <state width="1398" height="695" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1587690301897" />
-    <state width="1398" height="273" key="GridCell.Tab.0.right" timestamp="1588706489232">
+    <state width="1398" height="293" key="GridCell.Tab.0.right" timestamp="1588904939180">
       <screen x="0" y="23" width="1440" height="845" />
     </state>
-    <state width="1398" height="273" key="GridCell.Tab.0.right/0.23.1440.845@0.23.1440.845" timestamp="1588706489232" />
+    <state width="1398" height="293" key="GridCell.Tab.0.right/0.23.1440.845@0.23.1440.845" timestamp="1588904939180" />
     <state width="1398" height="695" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1587690301898" />
     <state width="1398" height="273" key="GridCell.Tab.1.bottom" timestamp="1588706489233">
       <screen x="0" y="23" width="1440" height="845" />

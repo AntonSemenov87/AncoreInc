@@ -23,6 +23,10 @@ public class NeVajno1 {
         driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
         List<WebElement> arr = footer.findElements(By.xpath("//td[@class='navFooterDescItem']"));
         System.out.println(arr.size());
+
+        driver.quit();
+
+
     }
 
 }
